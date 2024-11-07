@@ -12,7 +12,7 @@ class GBMSimulator:
 
 
         """
-        Simulate geometric Brownian motion for given parameters.
+        Simulate geometric Brownian motion for given parameters. TEST TEST TEST TEST TEST
 
         :param mu: Drift coefficient.
         :type mu: int
