@@ -1,0 +1,29 @@
+GBMSimulator package
+====================
+
+Submodules
+----------
+
+GBMSimulator.GBMSimulator module
+--------------------------------
+
+.. automodule:: GBMSimulator.GBMSimulator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+GBMSimulator.cli module
+-----------------------
+
+.. automodule:: GBMSimulator.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: GBMSimulator
+   :members:
+   :undoc-members:
+   :show-inheritance:
