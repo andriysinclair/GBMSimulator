@@ -1,27 +1,17 @@
-# Company Package
+# GBMSimulator
 
-<description of the package>
+`GBMSimulator` is a Python class designed to simulate Geometric Brownian Motion (GBM), a stochastic process widely used in mathematical finance for modeling stock prices and other financial instruments.
 
 ## Features
 
-<description of the features>
+* Simulates GBM paths given user-defined parameters.
+* Supports customizable drift, volatility, initial value, number of paths, and time steps.
+* Returns an array of simulated paths, which can be easily visualized or analyzed.
 
 ## Installation
 
-<description of the installation>
+...
 
 ## Usage
 
-<baseline example of usage>
-
-## Documentation
-
-Link to the [documentation page](https://your-readthedocs-url-here).
-
-## Contributing
-
-Contributions via pull requests are welcome!
-
-## License
-
-<description of the license>
+1. 

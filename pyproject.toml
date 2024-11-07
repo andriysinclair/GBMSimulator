@@ -7,11 +7,11 @@ readme = "README.md"
 
 # Specify your package directory here
 packages = [
-    { include = "GBMpackage" }
+    { include = "GBMSimulator" }
 ]
 
 [tool.poetry.dependencies]
-python = "^3.12.3"  
+python = "^3.12"  
 
 
 
