@@ -19,7 +19,7 @@
 1. Import the `GBMSimulator` class and `matplotlib` for plotting
 
 ```python
-from GBMSimulator import  GBMSimulator
+from GBMSimulator.GBMSimulator import  GBMSimulator
 import matplotlib.pyplot as plt
 ```
 
