@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GBMSimulator"
-version = "0.0.3"
+version = "0.0.4"
 description = "A minimalist package to simulate geometric brownian motion"
 authors = ["Andriy Sinclair"]
 readme = "README.md"
