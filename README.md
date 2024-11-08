@@ -10,7 +10,17 @@
 
 ## Installation
 
-...
+Ensure you have Python 3.12 or higher. You can install the package and its dependencies from source with:
+
+```bash
+pip install -e .
+```
+
+or from PyPi with:
+
+```bash
+pip install company_package
+```
 
 ## Usage
 
@@ -83,5 +93,13 @@ if M <= 10:
 else:
     plt.show()
 ```
+
+## Documentation
+
+Visit our [documentation page](https://gbmsimulator.readthedocs.io/en/latest/index.html).
+
+## Contributing
+
+Contributions are welcome! Fork our repository and submit a pull request.
 
 
