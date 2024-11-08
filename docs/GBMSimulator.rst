@@ -4,7 +4,7 @@ GBMSimulator package
 GBMSimulator.GBMSimulator module
 --------------------------------
 
-.. automodule:: GBMSimulator.GBMSimulator
+.. automodule:: Modules.Simulator
    :members:
    :undoc-members:
    :show-inheritance:

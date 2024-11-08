@@ -10,5 +10,5 @@ GBMSimulator_package documentation
    :maxdepth: 2
    :caption: Contents:
 
-   GBMSimulator
+   Modules.Simulator
 
