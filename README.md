@@ -19,7 +19,7 @@ pip install -e .
 or from PyPi with:
 
 ```bash
-pip install company_package
+pip install GBMSimulator==0.0.2
 ```
 
 ## Usage
