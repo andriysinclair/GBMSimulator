@@ -14,5 +14,5 @@ CLI Tool Documentation
 
 .. argparse::
    :module: GBMSimulator.cli
-   :func: main
+   :func: create_parser
 

@@ -1,11 +1,11 @@
 from GBMSimulator.GBMSimulator import GBMSimulator
 import argparse
 import matplotlib
+# Using interactive backend capable of displaying plots
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
-matplotlib.use('TkAgg')
-import tkinter as tk
-# Using interactive backend capable of displaying plots
+
 
 
 
@@ -54,10 +54,10 @@ def plot_paths(simulated_paths, M):
     else:
         plt.show()
 
-def main():
+def create_parser():
     """
-    main function for the CLI tool
-    """
+    Creates and returns the argument parser
+    """    
     parser = argparse.ArgumentParser(description="Generate and plot Gemoetric Brownian motion paths")
     parser.add_argument("--mu", type=float, required=True, help="Drift coefficient")
     parser.add_argument("--n", type=int, required=True, help="Number of time steps")
@@ -66,6 +66,13 @@ def main():
     parser.add_argument("--y0", type=float, required=True, help="Initial value")
     parser.add_argument("--sigma", type=float, required=True, help="Volatility coefficient")
 
+    return parser
+
+def main():
+    """
+    main function for the CLI tool
+    """
+    parser = create_parser()
     args = parser.parse_args()
 
     # Generate paths

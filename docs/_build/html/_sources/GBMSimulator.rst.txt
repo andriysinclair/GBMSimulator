@@ -9,18 +9,10 @@ GBMSimulator.GBMSimulator module
    :undoc-members:
    :show-inheritance:
 
-GBMSimulator.cli module
------------------------
+CLI Tool Documentation
+----------------------
 
-.. automodule:: GBMSimulator.cli
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. argparse::
+   :module: GBMSimulator.cli
+   :func: create_parser
 
-Module contents
----------------
-
-.. automodule:: GBMSimulator
-   :members:
-   :undoc-members:
-   :show-inheritance:
