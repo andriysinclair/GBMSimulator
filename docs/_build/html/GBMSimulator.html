@@ -44,7 +44,6 @@
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">GBMSimulator package</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#module-GBMSimulator.GBMSimulator">GBMSimulator.GBMSimulator module</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#GBMSimulator.GBMSimulator.GBMSimulator"><code class="docutils literal notranslate"><span class="pre">GBMSimulator</span></code></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#GBMSimulator.GBMSimulator.GBMSimulator.simulate"><code class="docutils literal notranslate"><span class="pre">GBMSimulator.simulate()</span></code></a></li>
@@ -52,7 +51,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#module-GBMSimulator.cli">GBMSimulator.cli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-GBMSimulator.cli">GBMSimulator.cli module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#GBMSimulator.cli.generate_paths"><code class="docutils literal notranslate"><span class="pre">generate_paths()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#GBMSimulator.cli.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#GBMSimulator.cli.plot_paths"><code class="docutils literal notranslate"><span class="pre">plot_paths()</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#module-GBMSimulator">Module contents</a></li>
 </ul>
 </li>
@@ -84,9 +88,6 @@
              
   <section id="gbmsimulator-package">
 <h1>GBMSimulator package<a class="headerlink" href="#gbmsimulator-package" title="Link to this heading"></a></h1>
-<section id="submodules">
-<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
-</section>
 <section id="module-GBMSimulator.GBMSimulator">
 <span id="gbmsimulator-gbmsimulator-module"></span><h2>GBMSimulator.GBMSimulator module<a class="headerlink" href="#module-GBMSimulator.GBMSimulator" title="Link to this heading"></a></h2>
 <dl class="py class">
@@ -130,6 +131,24 @@
 </section>
 <section id="module-GBMSimulator.cli">
 <span id="gbmsimulator-cli-module"></span><h2>GBMSimulator.cli module<a class="headerlink" href="#module-GBMSimulator.cli" title="Link to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GBMSimulator.cli.generate_paths">
+<span class="sig-prename descclassname"><span class="pre">GBMSimulator.cli.</span></span><span class="sig-name descname"><span class="pre">generate_paths</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mu</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">T</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">M</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigma</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/GBMSimulator/cli.html#generate_paths"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#GBMSimulator.cli.generate_paths" title="Link to this definition"></a></dt>
+<dd><p>Function to generate GBM paths</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GBMSimulator.cli.main">
+<span class="sig-prename descclassname"><span class="pre">GBMSimulator.cli.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/GBMSimulator/cli.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#GBMSimulator.cli.main" title="Link to this definition"></a></dt>
+<dd><p>main function for the CLI tool</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GBMSimulator.cli.plot_paths">
+<span class="sig-prename descclassname"><span class="pre">GBMSimulator.cli.</span></span><span class="sig-name descname"><span class="pre">plot_paths</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">simulated_paths</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">M</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/GBMSimulator/cli.html#plot_paths"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#GBMSimulator.cli.plot_paths" title="Link to this definition"></a></dt>
+<dd><p>Plots the simulated paths</p>
+</dd></dl>
+
 </section>
 <section id="module-GBMSimulator">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GBMSimulator" title="Link to this heading"></a></h2>
