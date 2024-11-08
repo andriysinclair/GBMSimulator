@@ -1,4 +1,4 @@
-from GBMSimulator.GBMSimulator import GBMSimulator
+from Modules.Simulator import GBMSimulator
 import argparse
 import matplotlib
 # Using interactive backend capable of displaying plots
