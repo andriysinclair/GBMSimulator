@@ -1,2 +1,12 @@
+# Byte-compiled / generated files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
