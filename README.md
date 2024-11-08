@@ -19,7 +19,7 @@ pip install -e .
 or from PyPi with:
 
 ```bash
-pip install GBMSimulator==0.0.2
+pip install GBMSimulator
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ pip install GBMSimulator==0.0.2
 1. Import the `GBMSimulator` class and `matplotlib` for plotting
 
 ```python
-from GBMSimulator.GBMSimulator import  GBMSimulator
+from Modules.Simulator import  GBMSimulator
 import matplotlib.pyplot as plt
 ```
 
